@@ -27,6 +27,6 @@ public class Test {
                 
                 moveObject.add(c);
                 moveObject.add(p);
-                //moveObject.add(r); ошибка т.к Rectangle не реализует интерфейс IControl
+                 //moveObject.add(r); ошибка т.к Rectangle не реализует интерфейс IControl
 	}
 }
