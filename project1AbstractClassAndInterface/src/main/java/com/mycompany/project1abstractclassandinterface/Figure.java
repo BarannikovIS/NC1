@@ -8,7 +8,7 @@ package com.mycompany.project1abstractclassandinterface;
  *
  * @author Иван
  */
-public abstract class Figure {
+public abstract class Figure implements IMovement {
     protected int x,y;
     public Figure(int x, int y){
         this.x=x;
@@ -19,6 +19,11 @@ public abstract class Figure {
     }
     public int getY(){
         return y;
+    }
+    @Override
+    public void move(int dx, int dy){
+        x+=dx;
+        y+=dy;
     }
     public abstract double calculateTheArea();
     public abstract double calculateThePerimetr();

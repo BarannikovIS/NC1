@@ -9,7 +9,7 @@ package com.mycompany.project1abstractclassandinterface;
  *
  * @author Иван
  */
-public class Circle extends Figure implements IMovement{
+public class Circle extends Figure {
     private int r;
     public Circle(int x,int y, int r){
         super(x,y);
@@ -25,10 +25,5 @@ public class Circle extends Figure implements IMovement{
     @Override
     public double calculateThePerimetr(){
         return 2*Math.PI*r;
-    }
-    @Override
-    public void move(int dx, int dy){
-        x+=dx;
-        y+=dy;
     }
 }

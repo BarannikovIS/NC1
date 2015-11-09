@@ -13,20 +13,24 @@ import java.util.ArrayList;
  */
 public class Test {
     public static void main(String[] args){
-                //список для фигур
-                ArrayList<Figure> figures= new ArrayList<Figure>();
-                //список для перемещаемых объектов
-                ArrayList<IMovement> moveObject= new ArrayList<IMovement>();
+                
+                //список для перемещаемых фигур
+                ArrayList<Figure> moveFigures= new ArrayList<Figure>();
                 
                 Rectangle r = new Rectangle(5,5,10,20);
                 Circle c= new Circle(10,10,30);
-                Photo p = new Photo(1,1);
                 
-                figures.add(r);
-                figures.add(c);
+                moveFigures.add(r);
+                moveFigures.add(c);
                 
-                moveObject.add(c);
-                moveObject.add(p);
-                 //moveObject.add(r); ошибка т.к Rectangle не реализует интерфейс IMovement
+                for(int i=0;i<moveFigures.size();i++){
+                    //if(moveFigures.get(i) instanceof Figure)
+                    System.out.println("координаты были: "+moveFigures.get(i).getX()+" "+ moveFigures.get(i).getY());
+                    System.out.println("площадь: "+moveFigures.get(i).calculateTheArea());
+                    System.out.println("периметр: "+moveFigures.get(i).calculateThePerimetr());
+                    
+                    moveFigures.get(i).move(10, 10);
+                    System.out.println("переместили на 10 по x и y. координаты стали: "+moveFigures.get(i).getX()+" "+ moveFigures.get(i).getY());
+                }
 	}
 }
