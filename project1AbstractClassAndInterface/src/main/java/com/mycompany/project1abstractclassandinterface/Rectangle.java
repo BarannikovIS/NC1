@@ -16,12 +16,6 @@ public class Rectangle extends Figure{
         this.width=width;
         this.height=height;
     }
-    public int getWidth(){
-        return width;
-    }
-    public int getHeight(){
-        return height;
-    }
     @Override
     public double calculateTheArea(){
         return width*height;

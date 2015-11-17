@@ -13,24 +13,22 @@ import java.util.ArrayList;
  */
 public class Test {
     public static void main(String[] args){
-                
-                //список для перемещаемых фигур
-                ArrayList<Figure> moveFigures= new ArrayList<Figure>();
-                
-                Rectangle r = new Rectangle(5,5,10,20);
+        
+                ArrayList<Figure> figures=new ArrayList<Figure>();
                 Circle c= new Circle(10,10,30);
+                Rectangle r= new Rectangle(5,5,15,20);
+                figures.add(c);
+                figures.add(r);
                 
-                moveFigures.add(r);
-                moveFigures.add(c);
-                
-                for(int i=0;i<moveFigures.size();i++){
-                    //if(moveFigures.get(i) instanceof Figure)
-                    System.out.println("координаты были: "+moveFigures.get(i).getX()+" "+ moveFigures.get(i).getY());
-                    System.out.println("площадь: "+moveFigures.get(i).calculateTheArea());
-                    System.out.println("периметр: "+moveFigures.get(i).calculateThePerimetr());
+                for(int i=0;i<figures.size();i++){
                     
-                    moveFigures.get(i).move(10, 10);
-                    System.out.println("переместили на 10 по x и y. координаты стали: "+moveFigures.get(i).getX()+" "+ moveFigures.get(i).getY());
+                    System.out.println("координаты были: "+figures.get(i).getX()+" "+ figures.get(i).getY());
+                    System.out.println("площадь: "+figures.get(i).calculateTheArea());
+                    System.out.println("периметр: "+figures.get(i).calculateThePerimetr());
+                    
+                    figures.get(i).move(10, 10);
+                    System.out.println("переместили на 10 по x и y. координаты стали: "+figures.get(i).getX()+" "+ figures.get(i).getY());
                 }
+             
 	}
 }

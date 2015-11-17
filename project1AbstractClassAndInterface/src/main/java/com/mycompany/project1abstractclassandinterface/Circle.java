@@ -15,9 +15,6 @@ public class Circle extends Figure {
         super(x,y);
         this.r=r;
     }
-    public int getR(){
-        return r;
-    }
     @Override
     public double calculateTheArea(){
         return Math.PI*r*r;
