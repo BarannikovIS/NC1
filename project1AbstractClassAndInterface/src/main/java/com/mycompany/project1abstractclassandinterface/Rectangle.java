@@ -17,11 +17,11 @@ public class Rectangle extends Figure{
         this.height=height;
     }
     @Override
-    public double calculateTheArea(){
+    public int calculateTheArea(){
         return width*height;
     }
     @Override
-    public double calculateThePerimetr(){
+    public int calculateThePerimetr(){
         return 2*(width+height);
     }
 }

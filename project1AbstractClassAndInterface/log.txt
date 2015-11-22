@@ -1,0 +1,5 @@
+2015-11-22 23:30:56 INFO  Figure:33 - figure moved in x: 2; figure moved in y: 2
+2015-11-22 23:31:54 INFO  Figure:33 - figure moved in x: 10; figure moved in y: 10
+2015-11-22 23:31:54 INFO  Figure:33 - figure moved in x: 10; figure moved in y: 10
+2015-11-22 23:34:14 INFO  Figure:33 - figure moved in x: 9; figure moved in y: 3
+2015-11-22 23:34:14 INFO  Figure:33 - figure moved in x: 4; figure moved in y: 3

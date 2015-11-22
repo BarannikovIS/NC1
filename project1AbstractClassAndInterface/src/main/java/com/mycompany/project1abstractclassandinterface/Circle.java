@@ -16,11 +16,11 @@ public class Circle extends Figure {
         this.r=r;
     }
     @Override
-    public double calculateTheArea(){
-        return Math.PI*r*r;
+    public int calculateTheArea(){
+        return (int)(Math.PI*r*r);
     }
     @Override
-    public double calculateThePerimetr(){
-        return 2*Math.PI*r;
+    public int calculateThePerimetr(){
+        return (int)(2*Math.PI*r);
     }
 }
