@@ -16,12 +16,24 @@ public class Rectangle extends Figure{
         this.width=width;
         this.height=height;
     }
+    public int getWidth(){
+        return width;
+    }
+    public void setWidth(int value){
+        width=value;
+    }
+    public int getHeight(){
+        return height;
+    }
+    public void setHeight(int value){
+        height=value;
+    }
     @Override
     public int calculateTheArea(){
-        return width*height;
+        return getWidth()*getHeight();
     }
     @Override
     public int calculateThePerimetr(){
-        return 2*(width+height);
+        return 2*(getWidth()+getHeight());
     }
 }

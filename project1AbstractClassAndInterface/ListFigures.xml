@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListFigures>
+  <figure name="Circle">
+    <X>10</X>
+    <Y>10</Y>
+    <Area>2827</Area>
+    <Perimetr>188</Perimetr>
+    <Radius>30</Radius>
+  </figure>
+  <figure name="Rectangle">
+    <X>5</X>
+    <Y>5</Y>
+    <Area>300</Area>
+    <Perimetr>70</Perimetr>
+    <Width>15</Width>
+    <Height>20</Height>
+  </figure>
+  <figure name="Rectangle">
+    <X>10</X>
+    <Y>10</Y>
+    <Area>25</Area>
+    <Perimetr>20</Perimetr>
+    <Width>5</Width>
+    <Height>5</Height>
+  </figure>
+</ListFigures>
+
