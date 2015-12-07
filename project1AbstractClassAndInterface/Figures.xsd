@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="" xmlns="" elementFormDefault="qualified">
+<xs:element name="ListFigures">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="figure" minOccurs="1" maxOccurs="3">
+<xs:complexType>
+<xs:attribute name="name" type="xs:string" use="required" />
+<xs:sequence>
+<xs:element name="X" minOccurs="1" maxOccurs="1">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string" />
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+<xs:element name="Y" minOccurs="1" maxOccurs="1">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string" />
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+<xs:element name="Area" minOccurs="1" maxOccurs="1">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string" />
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+<xs:element name="Perimetr" minOccurs="1" maxOccurs="1">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string" />
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+<xs:element name="Radius" minOccurs="0" maxOccurs="1">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string" />
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+<xs:element name="Width" minOccurs="0" maxOccurs="1">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string" />
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+<xs:element name="Height" minOccurs="0" maxOccurs="1">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string" />
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

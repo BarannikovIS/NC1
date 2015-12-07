@@ -32,3 +32,5 @@
 2015-11-28 23:45:09 INFO  Figure:33 - figure moved in x: 9; figure moved in y: 4
 2015-11-29 00:26:09 INFO  Figure:33 - figure moved in x: 7; figure moved in y: 0
 2015-11-29 00:26:09 INFO  Figure:33 - figure moved in x: 7; figure moved in y: 8
+2015-12-08 00:36:41 INFO  Figure:33 - figure moved in x: 2; figure moved in y: 2
+2015-12-08 01:08:07 INFO  Figure:33 - figure moved in x: 2; figure moved in y: 2

@@ -77,8 +77,4 @@ public class XMLClass {
             System.out.println(jdomex.getMessage());
         }
     }
-
-    public static void XPath(String path) {
-        
-    }
 }
