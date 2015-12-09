@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ListFigures schemaLocation="Figures.xsd ">
+<ListFigures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Figures.xsd">
   <figure name="Circle">
     <X>10</X>
     <Y>10</Y>
